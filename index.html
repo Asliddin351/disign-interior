@@ -1,0 +1,158 @@
+<?php
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Дизайн интерьеров</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<img src="" width=""  alt="">
+    
+    <header id="header" class="header"> 
+        <div class="bg-dark">
+            <div class="social-icons">
+                <a href="#"><img src="image/vk_icon.png" alt="vk_icon"></a>
+                <a href="#"><img src="image/instagram_icon.png" alt="instagram_icon"></a>                   
+                <a href="#"><img src="image/facebook_icon.png" alt="facebook_icon"></a>               
+             </div>
+        </div>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="navbar">
+                    <div class="nav-bar" id="nav-bar">
+                        <span class="show" id="showBtn" onclick="showMenu()"><img src="image/menu_btn-opn.png" alt="menu_btn-opn"></span>
+                        <ul class="menu" id="menu-right">
+                            <li class="menu_item"><a href="/" class="menu_link">Главная</a></li>
+                            <li class="menu_item"><a href="#" class="menu_link">Приемущества</a></li>
+                            <li class="menu_item"><a href="#" class="menu_link">Портфолио</a></li>
+                            <li class="menu_item"><a href="#" class="menu_link">Наши услуги</a></li>
+                            <li class="menu_item"><a href="/reviews.html" class="menu_link">Отзывы</a></li>
+                            <li class="menu_item"><a href="#" class="menu_link">Контакты</a></li>
+                        </ul>
+                        <span class="hide" id="hideBtn" onclick="closeMenu()"></span>
+                    </div>
+
+                    <a href="#" class="logo"><img src="image/logo.png" alt="logo"></a>
+                    <p class="phone"><img src="image/phone_icon.png" alt="phone_icon">+7 (800) 823  48 88</p>
+                </div>
+                <div class="slider">
+                    <div>
+                        <h1>Дизайн 
+                            <br>
+                            интерьеров 
+                        </h1>
+                        <h5>Воплотим в жизнь интерьер, который будет <br> радовать лаконичностью и уютом.</h5>
+                        <a  href="#" class="slider-btn">ЗАКАЗАТЬ ДИЗАЙН <img src="image/arrow_right.png" alt="arrow_right"></a>
+                    </div>
+                </div>
+                <div class="slider-control">
+                    <div id="slider-ctl_one" class="control-item active"></div>
+                    <div id="slider-ctl_two" class="control-item"></div>
+                    <div id="slider-ctl_three" class="control-item"></div>
+                    <div id="slider-ctl_fore" class="control-item"></div>
+                </div>
+            </div>
+        </div>    
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="features_wrapper">
+                <div class="features_item">
+                    <h1>01</h1>
+                    <h2>Берем весь ремонт на себя</h2>
+                    <p>Заботы по дизайну и отделке помещения возьмем на себя, останется дождаться завершения работ и наслаждаться результатом</p>
+                </div>
+                <div class="features_item">
+                    <h1>02</h1>
+                    <h2>Мы - профессионалы своего дела</h2>
+                    <p>Наши дизайнеры постоянно повышают квалификацию, посещеют курсы и тренинги     а студия уже реализовала свыше 1000 дизайн-проектов</p>
+                </div>
+                <div class="features_item">
+                    <h1>03</h1>
+                    <h2>Наши проекты индивидуальны</h2>
+                    <p>Каждый, созданный студией, интерьер - индивидуальное         и максимально продуманное решение для каждого вида помещения</p>
+                </div>
+                <div class="features_item">
+                    <h1>04</h1>
+                    <h2>Рабатаем на выгодных условиях</h2>
+                    <p>Ценовая политика студии очень лояльна,  мы осуществляем контроль всего процесса работы  и получаем результат который делает клиентов счастивыми</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="partfolio">
+        <div class="container">
+            <div class="portfolio_wrapper">
+                <h1 class="title">Портфолио</h1>
+                <ul class="portfolio_menu">
+                    <li class="item "><a href="#" class="link">Все проекты</a></li>                          
+                    <li class="item "><a href="#" class="link">Дизайн интерьеров</a></li>
+                    <li class="item "><a href="#" class="link">Отделочные работы</a></li>
+                </ul>
+                
+                <div class="portfolio_slider">
+                    <div class="portfolio_slider__item one">
+                        <div class="item_bg">
+                            <h4>Дизайн интерьера <br> гостиной </h4>
+                            <h4>Дизайн интерьера <br> гостиной </h4>
+                        </div>
+                    </div>
+                    <div class="portfolio_slider__item two">
+                        <div class="item_bg">
+                            <h4>Дизайн интерьера <br> зала </h4>
+                            <h4>Дизайн интерьера <br> зала </h4>
+                        </div>
+                    </div>
+                    <div class="portfolio_slider__item three">
+                        <div class="item_bg">
+                            <h4>Дизайн интерьера <br> кухни </h4>
+                            <h4>Дизайн интерьера <br> кухни </h4>
+                        </div>
+                    </div>
+                    <div class="portfolio_slider__item fore">
+                        <div class="item_bg">
+                            <h4>Дизайн интерьера <br> спальни </h4>
+                            <h4>Дизайн интерьера <br> спальни </h4>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   <footer>
+        <div class="footer-wrap">
+            <div class="footer-item">
+                <h3>Find Us</h3>
+                <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing <br> Veritatis, distinctio</p>
+            </div>
+            <div class="footer-item">
+                <h3>Resecvation</h3>
+                <p>092-31-0212 | 090-21-3123 <br> info@company.com <br>LINE:eatery247</p>
+            </div>
+            <div class="footer-item">
+                <h3>Open Hours</h3>
+                <p>Mondey: Closed <br>Tuesday to Frieday <br>7:00 AM - 09:00 PM <br>Suturday - Sunday <br>11:00 AM - 10-00 PM</p>
+            </div>
+            <div class="footer-item">
+                <div class="icons"></div>
+                <p>Company @ 2019 <br> Your Company Name <br>Disign Temsdled</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+</body>
+</html>
